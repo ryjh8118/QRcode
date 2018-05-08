@@ -1,0 +1,25 @@
+topic: ~Visitor()
+language: mnc
+
+
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+
+
+u:(Question)Answer
+u:(Human_Input) Robot_Outpt
+
+u:(早安)Goodmorning
+u:(嗨)hi很開心認識你
+u:(聽到)有聽到
+
+
+u:(e:Dialog/NotSpeaking5):^rand["歡迎光臨" "可以和我聊聊天唷" "假如手中有QRcode 可以給我掃描唷"] #沒人說話的話 隨機
