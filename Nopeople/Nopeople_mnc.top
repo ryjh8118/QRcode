@@ -1,0 +1,15 @@
+topic: ~Nopeople()
+language: mnc
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+
+u:(e:Dialog/NotSpeaking5):^rand["歡迎光臨" "可以和我聊聊天唷" "我是可愛的派勃你認識我嗎" "報到可以過來我這唷"] #沒人說話的話 隨機
+

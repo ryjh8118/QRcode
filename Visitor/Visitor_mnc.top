@@ -20,6 +20,7 @@ u:(Human_Input) Robot_Outpt
 u:(早安)Goodmorning
 u:(嗨)hi很開心認識你
 u:(聽到)有聽到
+u:(e:Dialog/NotSpeaking5):^rand["掃描把code放在我的眼睛前面唷" "等我一下唷"] #沒人說話的話 隨機
+u:(e:onStart)我看到你了初次見面
 
 
-u:(e:Dialog/NotSpeaking5):^rand["歡迎光臨" "可以和我聊聊天唷" "假如手中有QRcode 可以給我掃描唷"] #沒人說話的話 隨機
