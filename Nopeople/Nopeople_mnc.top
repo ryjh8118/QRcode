@@ -1,5 +1,6 @@
-topic: ~Nopeople()
+`topic: ~Nopeople()
 language: mnc
+include: lexicon_mnc.top    
 
 # Defining extra concepts out of words or group of words
 #concept:(hello) [hello hi hey "good morning" greetings]
@@ -11,5 +12,7 @@ language: mnc
 #u:(~hello) ~hello
 
 
-u:(e:Dialog/NotSpeaking5):^rand["歡迎光臨" "可以和我聊聊天唷" "我是可愛的派勃你認識我嗎" "報到可以過來我這唷"] #沒人說話的話 隨機
+u:(~who) 我是 ~pause 可愛的派勃
+u:(e:Dialog/NotSpeaking5):^rand["~bigvct 歡迎光臨來我這報到唷 $ask=1" "~bigvct 可以和我報到唷 $ask=1" "~bigvct  我是可愛的派勃 ~pause 可以來報到唷 $bored=1" "~bigvct  報到的 ~pause 可以過來我這唷 $ask=1"] #沒人說話的話 隨機
 
+u:(e:onStart)~vct 還沒報到的快來找我唷!! $bored=1

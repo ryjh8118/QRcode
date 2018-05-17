@@ -18,6 +18,7 @@
         <Topic name="Nopeople_enu" src="Nopeople/Nopeople_enu.top" topicName="Nopeople" language="en_US" />
         <Topic name="Nopeople_mnt" src="Nopeople/Nopeople_mnt.top" topicName="Nopeople" language="zh_TW" />
         <Topic name="Nopeople_mnc" src="Nopeople/Nopeople_mnc.top" topicName="Nopeople" language="zh_CN" />
+        <Topic name="lexicon_mnc" src="Nopeople/lexicon_mnc.top" topicName="lexicon_mnc" language="zh_CN" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">
