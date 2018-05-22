@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package version="0.0.0" uuid="peppertest-qrcode-5edc18">
+<package uuid="peppertest-qrcode-5edc18" version="0.0.0">
  <names>
   <name lang="en_US">PepperTest-QRcode</name>
  </names>

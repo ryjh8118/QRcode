@@ -10,21 +10,22 @@ language: mnc
 # Replying to speech
 #u:(~hello) ~hello
 concept:(pause) ，\pau=500\
-concept:(hello) [你好 早安 午安 晚安 嗨 哈囉 三碗低咖 鞛糾 hello hi "good morning" "good afternoon" "good night"]
+concept:(hello) [你好 嗨 哈囉 三碗低咖 鞛糾 hello hi "good morning" "good afternoon" "good night"]
 concept:(ask) [如何 怎麼 教 不會 使用]
-
+concept:(timehello) [早安 午安 晚安 ]
 u:(Question)Answer
 u:(Human_Input) Robot_Outpt
 
-u:(早安)~vct  Goodmorning $happy=1 我好開心唷
+u:(~timehello) $time=1
 u:(嗨)hi ~vct 很開心認識你 $happy=1
 u:(_[~hello]) $1 $happy=1
 u:(聽到)我有聽到唷 
-u:(~ask)掃描請把code ~pause 放我的眼睛前面 ~pause 15公分處
-u:(掃描)請把Code放我的眼睛前面 ~pause 10公分處
-u:(要怎麼掃描)請把Code放我的眼睛前面 ~pause 10公分處
-u:(不會)請把Code放我的眼睛前面 ~pause 10公分處
-u:(e:Dialog/NotSpeaking10):["掃描請把code ~pause 放我的眼睛前面 10公分處"] #引導
+#u:(~ask)掃描請把code ~pause 放我的眼睛前面 ~pause 15公分處
+#u:(掃描)請把Code放我的眼睛前面 ~pause 10公分處
+#u:({要}怎麼掃描)請把Code放我的眼睛前面 ~pause 10公分處
+#u:(不會)請把Code放我的眼睛前面 ~pause 10公分處
+u:(親我) 好啦 ~bigvct $kiss=1
+u:(e:Dialog/NotSpeaking10):["掃描請把code ~pause 放我的眼睛前面 10公分處" "掃描時 ~pause 請把手機亮度調高"] #引導
 u:(e:onStart)我看到你了快來和我掃描報到!! $kiss=1
 
 

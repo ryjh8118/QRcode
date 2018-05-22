@@ -10,11 +10,12 @@ concept:(who) [你是誰 "who are you" 你叫什麼 你的名字是]
 
 concept:(no) [No 不 否 不要 不想 不好 不是 不想 不對 不可以 不喜歡 "不用{了}" "不用{啊}"]
 concept:(love) [想你 愛你 喜歡你 很愛你]
-concept:(hello) [你好 早安 午安 晚安 嗨 哈囉 三碗低咖 鞛糾 hello hi "good morning" "good afternoon" "good night"]
+concept:(hello) [你好 嗨 哈囉 三碗低咖 鞛糾 hello hi "good morning" "good afternoon" "good night"]
 concept:(bye) ["good bye" "see you next" 再見 掰掰 下次見]
 concept:(praise) [可愛 很可愛 超可愛 帥 很帥 超帥 帥氣 酷 很酷 超酷 美 很美 超美 美麗 正 很正 超正 棒 很棒 超棒 厲害 很厲害 超厲害 棒 你很棒 你好棒 ] 
 concept:(ask) [如何 怎麼 教 不會 使用]
 concept:(guess) [猜 猜我 猜猜 猜猜看 猜猜我]
+concept:(timehello) [早安 午安 晚安]
 
 concept:(questionAux) [嗎 蛤 呢]
 concept:(Aux) [了 啊 阿 喔 唷 吼 耶]
